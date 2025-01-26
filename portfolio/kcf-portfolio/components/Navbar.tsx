@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav>
       <Link href="/" className="nav-logo ">
-        <Image src="/images/Logo-lt.png" alt="logo" width={300} height={300} />
+        <Image src="/images/Logo-lt.png" alt="logo" width={200} height={200} />
       </Link>
 
       <div className="nav-items hidden lg:block">
