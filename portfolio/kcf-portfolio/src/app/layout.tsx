@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 
 export const metadata: Metadata = {
   title: "Kyle Fountain Portfolio",
@@ -14,31 +16,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <nav>
-          <a href="" className="nav-item">
-            Skills
-          </a>
-          <a href="" className="nav-item">
-            Contact
-          </a>
-          <div id="logo">
-            <a href="">
-              <img src="/images/Logo-lt.png" alt="" />
-            </a>
-          </div>
-
-          <a href="" className="nav-item">
-            About
-          </a>
-          <a href="" className="nav-item">
-            Projects
-          </a>
-        </nav>
-        {children}
-
-        <footer>
-          <p>footer goes here</p>
-        </footer>
+        <Navbar />
+        <main className="relative overflow-hidden">{children}</main>
+        <Footer />
       </body>
     </html>
   );
