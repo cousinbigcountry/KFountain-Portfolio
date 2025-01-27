@@ -11,19 +11,27 @@ const Navbar = () => {
         <Image src="/images/Logo-lt.png" alt="logo" width={200} height={200} />
       </Link>
 
-      <div className="nav-items hidden lg:block">
+      <div className="nav-items hidden lg:block xl:block text-white text-[1.3rem] no-underline uppercase">
         <ul>
           <li>
-            <Link href={"/"}>Skills</Link>
+            <Link href={"/"} className="hover:text-[#7791d6]">
+              Skills
+            </Link>
           </li>
           <li>
-            <Link href={"/"}>Contact</Link>
+            <Link href={"/"} className="hover:text-[#7791d6]">
+              Contact
+            </Link>
           </li>
           <li>
-            <Link href={"/"}>About</Link>
+            <Link href={"/"} className="hover:text-[#7791d6]">
+              About
+            </Link>
           </li>
           <li>
-            <Link href={"/"}>Projects</Link>
+            <Link href={"/"} className="hover:text-[#7791d6]">
+              Projects
+            </Link>
           </li>
         </ul>
       </div>
@@ -43,17 +51,17 @@ const Navbar = () => {
         }`}
         style={{ transition: "transform 0.3 ease, opacity 0.3 ease" }}
       >
-        <li className="list-none w-full text-center p-4 hover:text-red-600 transition-all cursor-pointer">
-          Skills
+        <li className="list-none w-full text-center p-4 hover:text-[#7791d6] transition-all cursor-pointer">
+          <a href="\">Skills</a>
         </li>
-        <li className="list-none w-full text-center p-4 hover:text-red-600 transition-all cursor-pointer">
-          Contact
+        <li className="list-none w-full text-center p-4 hover:text-[#7791d6] transition-all cursor-pointer">
+          <a href="\">Contact</a>
         </li>
-        <li className="list-none w-full text-center p-4 hover:text-red-600 transition-all cursor-pointer">
-          About
+        <li className="list-none w-full text-center p-4 hover:text-[#7791d6] transition-all cursor-pointer">
+          <a href="\">About</a>
         </li>
-        <li className="list-none w-full text-center p-4  hover:text-red-600 transition-all cursor-pointer">
-          Projects
+        <li className="list-none w-full text-center p-4  hover:text-[#7791d6] transition-all cursor-pointer">
+          <a href="\">Projects</a>
         </li>
       </div>
     </nav>

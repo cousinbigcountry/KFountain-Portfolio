@@ -44,19 +44,9 @@ nav {
   float: left;
 }
 .nav-items ul li a {
-  color: white;
-  font-size: 1.3rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: block;
   padding: 10px 40px;
 }
-.nav-items ul li a:hover {
-  color: red;
-}
-.nav-logo img {
-  height: 9rem;
-}
+
 .nav-logo {
   position: absolute;
   left: 50%;
@@ -71,7 +61,7 @@ nav {
   padding: 10px 5px;
 }
 .mobile-menu {
-  background: hsla(0, 0%, 0%, 0.5);
+  background: hsla(0, 0%, 0%, 0.8);
 }
 /*HERO*/
 section {
@@ -81,6 +71,7 @@ section {
   justify-content: center;
 }
 
+/*HERO
 .hero-image {
   width: 100%;
   height: 100%;
@@ -95,21 +86,29 @@ section {
 }
 .hero h1 {
   position: absolute;
-  left: 50%;
+  left: 30%;
   top: 25%;
   font-size: 4rem;
   transform: translate(-50%, -25%);
 }
+@media screen and (max-width: 425px) {
+}
 .hero p {
   position: absolute;
-  left: 50%;
+  width: 50%;
+  left: 30%;
   top: 35%;
   font-size: 1.4rem;
   transform: translate(-50%, -25%);
 }
 #first-name {
+  text-transform: uppercase;
   color: white;
+  -webkit-text-stroke: 1px #7791d6;
 }
 #last-name {
-  color: blue;
+  text-transform: uppercase;
+  color: #7791d6;
+  -webkit-text-stroke: 1px white;
 }
+*/
