@@ -10,19 +10,43 @@ const Hero = () => {
               Kyle <span className="text-[#7791d6]">Fountain</span>
             </h1>
             <p>
+              {/* TODO*/}
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
               quibusdam ipsum fuga deserunt deleniti omnis eligendi quaerat
               possimus ab perferendis similique, voluptate, laudantium
               reprehenderit laborum cumque aspernatur assumenda obcaecati velit?
             </p>
+            <div className="btn-group grid grid-cols-1 gap-5 md:grid-cols-2  ">
+              <button className="primary-btn bg-inherit hover:bg-[#7791d6] ">
+                <a href="https://github.com/cousinbigcountry?tab=repositories">
+                  <img
+                    src="/images/github-icon.png"
+                    alt=""
+                    height={100}
+                    width={100}
+                  />
+                </a>
+              </button>
+              <button className="primary-btn bg-inherit hover:bg-[#7791d6] ">
+                <a href="https://www.linkedin.com/in/kyle-fountain-89a6b4136/">
+                  <img
+                    src="/images/linkedin-icon.png"
+                    alt=""
+                    height={100}
+                    width={100}
+                  />
+                </a>
+              </button>
+            </div>
           </div>
           <div className="flex justify-center items-center">
             <img
               src="/images/hero.png"
               alt="hero image"
-              className="w-[80%] md:w-[500px] xl:w-[600px]"
+              className="w-[95%] md:w-[500px] xl:w-[600px]"
             />
           </div>
+          <div className="btn-group flex "></div>
         </div>
       </div>
     </section>
