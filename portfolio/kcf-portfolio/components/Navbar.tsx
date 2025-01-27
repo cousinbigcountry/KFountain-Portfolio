@@ -14,22 +14,22 @@ const Navbar = () => {
       <div className="nav-items hidden lg:block xl:block text-white text-[1.3rem] no-underline uppercase">
         <ul>
           <li>
-            <Link href={"/"} className="hover:text-[#7791d6]">
+            <Link href={"/skills"} className="hover:text-[#7791d6]">
               Skills
             </Link>
           </li>
           <li>
-            <Link href={"/"} className="hover:text-[#7791d6]">
+            <Link href={"/contact"} className="hover:text-[#7791d6]">
               Contact
             </Link>
           </li>
           <li>
-            <Link href={"/"} className="hover:text-[#7791d6]">
+            <Link href={"/about"} className="hover:text-[#7791d6]">
               About
             </Link>
           </li>
           <li>
-            <Link href={"/"} className="hover:text-[#7791d6]">
+            <Link href={"/projects"} className="hover:text-[#7791d6]">
               Projects
             </Link>
           </li>
@@ -52,16 +52,16 @@ const Navbar = () => {
         style={{ transition: "transform 0.3 ease, opacity 0.3 ease" }}
       >
         <li className="list-none w-full text-center p-4 hover:text-[#7791d6] transition-all cursor-pointer">
-          <a href="\">Skills</a>
+          <a href="/skills">Skills</a>
         </li>
         <li className="list-none w-full text-center p-4 hover:text-[#7791d6] transition-all cursor-pointer">
-          <a href="\">Contact</a>
+          <a href="/contact">Contact</a>
         </li>
         <li className="list-none w-full text-center p-4 hover:text-[#7791d6] transition-all cursor-pointer">
-          <a href="\">About</a>
+          <a href="/about">About</a>
         </li>
         <li className="list-none w-full text-center p-4  hover:text-[#7791d6] transition-all cursor-pointer">
-          <a href="\">Projects</a>
+          <a href="/projects">Projects</a>
         </li>
       </div>
     </nav>
