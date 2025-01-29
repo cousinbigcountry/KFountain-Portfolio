@@ -5,8 +5,8 @@ const Hero = () => {
     <section className="hero-section mt-20">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <div className="inner.container space-y-5 flex flex-col justify-center items-center text-center md:text-left py-20 px-10 md:pr-24 md:py-0 md:px-0 md:items-start md:mx-10 md:mt-16">
-            <h1 className="text-4xl md:text-[1.6rem] xl:text-5xl font-bold uppercase">
+          <div className="inner.container space-y-5 flex flex-col justify-center items-center text-center sm:text-left py-20 px-10 md:pr-24  md:px-0 md:items-start md:mx-5 md:mt-16">
+            <h1 className="text-4xl xl:text-5xl font-bold uppercase">
               Kyle <span className="text-[#7791d6]">Fountain</span>
             </h1>
             <p>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import localFont from "@next/font";
 
 export const metadata: Metadata = {
   title: "Kyle Fountain Portfolio",
@@ -17,7 +18,6 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar />
-        <br />
         <main>{children}</main>
         <Footer />
       </body>
