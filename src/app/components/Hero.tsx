@@ -16,24 +16,34 @@ const Hero = () => {
               possimus ab perferendis similique, voluptate, laudantium
               reprehenderit laborum cumque aspernatur assumenda obcaecati velit?
             </p>
-            <div className="btn-group grid grid-cols-1 gap-5 md:grid-cols-2  ">
-              <button className="primary-btn bg-inherit hover:bg-[#7791d6] ">
+            <div className="btn-group grid grid-cols-1 gap-5 md:grid-cols-3  ">
+              <button className="primary-btn bg-inherit hover:bg-[#00000063] ">
                 <a href="https://github.com/cousinbigcountry?tab=repositories">
                   <img
-                    src="/images/github-icon.png"
-                    alt=""
+                    src="github-icon.png"
+                    alt="github logo"
                     height={100}
                     width={100}
                   />
                 </a>
               </button>
-              <button className="primary-btn bg-inherit hover:bg-[#7791d6] ">
+              <button className="primary-btn bg-inherit hover:bg-[#00000063] ">
                 <a href="https://www.linkedin.com/in/kyle-fountain-89a6b4136/">
                   <img
-                    src="/images/linkedin-icon.png"
-                    alt=""
+                    src="linkedin-icon.png"
+                    alt="linkedin logo"
                     height={100}
                     width={100}
+                  />
+                </a>
+              </button>
+              <button className="primary-btn bg-inherit hover:bg-[#00000063] ">
+                <a href="resume.pdf" download="Kyle Fountain Resume">
+                  <img
+                    src="resume-icon.png"
+                    alt="resume"
+                    height={60}
+                    width={60}
                   />
                 </a>
               </button>
@@ -41,9 +51,9 @@ const Hero = () => {
           </div>
           <div className="flex justify-center items-center">
             <img
-              src="/images/hero.png"
+              src="hero.png"
               alt="hero image"
-              className="w-[400px] md:w-[500px] xl:w-[600px]"
+              className="w-[400px] md:w-[500px] xl:w-[600px] mr-9 s-"
             />
           </div>
         </div>

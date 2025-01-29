@@ -11,7 +11,7 @@ const Navbar = () => {
         <Image src="/images/Logo-lt.png" alt="logo" width={200} height={200} />
       </Link>
 
-      <div className="nav-items hidden lg:block xl:block text-white text-[1.3rem] no-underline uppercase">
+      <div className="nav-items hidden lg:block xl:block text-white text-[1.3rem] font-bold no-underline uppercase">
         <ul>
           <li>
             <Link href={"/skills"} className="hover:text-[#7791d6]">
@@ -41,7 +41,7 @@ const Navbar = () => {
         alt="menu"
         width={50}
         height={50}
-        className="menu cursor-pointer lg:hidden"
+        className="menu ml-4 cursor-pointer lg:hidden"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       />
 
